@@ -7,11 +7,11 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
         text: about
       - href: Sub1.qmd
         text: my homework 1
-      - sub2.qmd
+      - href: sub2.qmd
         text: my homework 2
 
 format:
