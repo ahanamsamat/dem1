@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "sub2.html",
+    "href": "sub2.html",
+    "title": "sub2",
+    "section": "",
+    "text": "x&lt;- rnorm(50)\ny&lt;- rnorm(50)\n\nplot(x,y)\n\n\n\n\na simple knowledge: \\[ 1+ 1= 2\\] this is very simple lets do math\n\\[\n\\sum^{a}_{i=1}=\n\\]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Ahana Website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  }
+]

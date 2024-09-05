@@ -1,0 +1,16 @@
+---
+title: "sub2"
+---
+
+```{r}
+x<- rnorm(50)
+y<- rnorm(50)
+
+plot(x,y)
+```
+
+a simple knowledge: $$ 1+ 1= 2$$ this is very simple lets do math
+
+$$
+\sum^{a}_{i=1}= 
+$$
