@@ -13,6 +13,9 @@ website:
         text: my homework 1
       - href: sub2.qmd
         text: my homework 2
+      - href: Assignment1.qmd
+        text: Assignment 1
+      
 
 format:
   html:
