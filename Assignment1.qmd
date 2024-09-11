@@ -88,4 +88,6 @@ ggplot() +
 
 ## Part 2
 
+![graph](https://i.insider.com/541b6cd5eab8ea164e2c5ca1?width=1200&format=jpeg)
+
 ### In the graph I selected, there is a clear
