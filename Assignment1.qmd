@@ -14,7 +14,7 @@ output:
 # Credit: https://fronkonstin.com
 
 # Install packages
-install.packages(c("gsubfn", "proto", "tidyverse"))
+# install.packages(c("gsubfn", "proto", "tidyverse"))
 
 library(gsubfn)
 library(tidyverse)
