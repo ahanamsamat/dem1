@@ -1,0 +1,35 @@
+---
+title: "Assignment 3"
+format: html
+editor: visual
+---
+
+```{r}
+install.packages("ggplot2")
+# Load necessary libraries
+library(ggplot2)
+library(gridExtra)  # For arranging multiple ggplot objects
+
+# Load Anscombe's data
+data(anscombe)
+
+# Prepare a function to create plots for each dataset
+create_plot <- function(x, y, title) {
+  ggplot(data = data.frame(x, y), aes(x = x, y = y)) +
+    geom_point(color = "magenta", fill = "purple", shape = 21, size = 3) +  # Customize point appearance
+    geom_smooth(method = "lm", color = "blue", se = FALSE) +  # Add linear regression line
+    labs(x = "X-axis", y = "Y-axis", title = title) +
+    theme_minimal(base_family = "serif") +  # Use serif font
+    theme(plot.title = element_text(hjust = 0.5))  # Center title
+}
+
+# Create individual plots for each dataset
+plot1 <- create_plot(anscombe$x1, anscombe$y1, "Dataset 1")
+plot2 <- create_plot(anscombe$x2, anscombe$y2, "Dataset 2")
+plot3 <- create_plot(anscombe$x3, anscombe$y3, "Dataset 3")
+plot4 <- create_plot(anscombe$x4, anscombe$y4, "Dataset 4")
+
+# Arrange the four plots in a 2x2 grid
+grid.arrange(plot1, plot2, plot3, plot4, ncol = 2)
+
+```

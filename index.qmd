@@ -3,10 +3,6 @@ title: "Ahana Website"
 author: "Ahana Samat"
 ---
 
-This is a Quarto website.
+## I am a PhD Student interested in Domestic Social Policy surrounding social institutions like Education, Marriage, and Family. This is my website for assignments related to EPPS 6356: Data Visualization.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
-```{r}
-1 + 1
-```

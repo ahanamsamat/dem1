@@ -9,8 +9,12 @@ website:
         text: Home
       - href: about.qmd
         text: about
-      - href: Assignment1.qmd
-        text: Assignment1
+      - href: Assignment 1.qmd
+        text: Assignment 1
+      - href: Assignment 2.qmd
+        text: Assignment 2
+      - href: Assignment 3.qmd
+        text: Assignment 3
       
 
 format:
