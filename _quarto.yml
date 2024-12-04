@@ -2,21 +2,19 @@ project:
   type: website
 
 website:
-  title: "Ahana Samat"
+  title: "EPPS 6356: Data Visualization"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - href: about.qmd
-        text: about
-      - href: Assignment 1.qmd
+        text: About
+      - href: assignment1.qmd
         text: Assignment 1
-      - href: Assignment 2.qmd
-        text: Assignment 2
-      - href: Assignment 3.qmd
+      - href: assignment3.qmd
         text: Assignment 3
+     
       
-
 format:
   html:
     theme: cosmo

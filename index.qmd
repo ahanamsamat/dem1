@@ -1,8 +1,5 @@
 ---
-title: "Ahana Website"
-author: "Ahana Samat"
+title: "EPPS 6356: Data Visualization"
 ---
 
-## I am a PhD Student interested in Domestic Social Policy surrounding social institutions like Education, Marriage, and Family. This is my website for assignments related to EPPS 6356: Data Visualization.
-
-
+This is a collection of all my assignments for Data Visualization

@@ -1,0 +1,32 @@
+---
+title: "assignment3"
+output: html
+---
+
+```{r, echo= TRUE}
+
+owidall <- read.csv("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv")
+
+
+owidall = owidall[!grepl("^OWID", owidall$iso_code), ]
+
+
+owideu = subset(owidall, continent == "Europe" & as.Date(date) < as.Date("2023-08-31") & as.Date(date) > as.Date("2020-01-01"))
+
+ylim = c(0, 6000)
+
+# Font
+par(family = "serif")
+
+# y axis: retrieved using chatgpt
+y_ticks <- c(1000, 3000, 5000)
+
+# Plot
+plot(x = as.Date(owideu$date), y = owideu$new_deaths, pch = 16, col = "#bf106d", 
+     xaxt = "n", yaxt = "n", ylab = "", xlab = "")
+axis.Date(1, at = as.Date(owideu$date), labels = format(as.Date(owideu$date), "%Y-%m"), las = 2, cex.axis = 0.6)  # X-axis
+axis(2, at = y_ticks, labels = y_ticks, cex.axis = 0.6)
+
+
+
+```
